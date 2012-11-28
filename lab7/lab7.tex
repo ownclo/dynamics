@@ -117,142 +117,104 @@
 \newpage
 \section{Результаты измерений и вычислений}
 \subsection{Измерения и вычисления}
-\subsubsection{$\Delta\phi_{расч}$}
-$$
-\left.
-\begin{aligned}
-    \lambda_d &=\frac{\lambda}{\sqrt{1 - (\lambda/2\alpha)^2}}\\
-    \phi_\tau &=\frac{2\pi}{\lambda_d}d\\
-    \phi_n &= \frac{2\pi}{\lambda}d\\
-    \lambda &= \frac{c}{f}\\
-    \Delta\phi_{расч} &= \phi_\tau - \phi_n\\
-\end{aligned}
-\right\}
-\Longrightarrow
-\left|
-\begin{aligned}
-    c &= 3\cdot10^8 m/s\\
-    f &= 11.96\cdot10^9Hz\\
-    \alpha &= 20\cdot10^{-3}m\\
-    d &= 24\cdot10^{-3}m\\
-\end{aligned}
-\right|
-\Longrightarrow
-\left|
-\begin{aligned}
-    \lambda &= 25\cdot10^{-3}m\\
-    \lambda_d &= 32\cdot10^{-3}m\\
-    \phi_\tau &= 4.71\\
-    \phi_n &= 6.03\\
-    \Delta\phi_{расч} &= -1.32
-\end{aligned}
-\right.
-$$
-\vspace{10 pt}
-\subsubsection{$\Delta\phi_{изм}$}
-Значение сдвига фаз, полученное на основе экспериментальных данных, вычисляется по формуле:
+\subsubsection{Теоретический коэффициент затухания $\alpha_{H_{10}}$.}
 \begin{equation}
-    \Delta\phi = \arctg \left[ \frac{2r}{(1+r^2)\sin^2\beta_0} \right]
+    \alpha_{H_{10}} = \frac{0.793\left[ 1 + 2\frac{b}{a}\left( \frac{\lambda}{2a} \right)^2\right]}
+                            {b\sqrt{\sigma\lambda \left[ 1 - \left( \frac{\lambda}{2a} \right)^2\right]}}
+    \label{eq:alpha_teor}
+\end{equation}
+\vspace{10 pt}
+
+\subsubsection{Экспериментальный коэффициент затухания $\alpha_{H_{10}}$.}
+\begin{equation}
+    \alpha_{H_{10}} = 8.686 \frac{КБ_v}{l}
+    \label{eq:alpha_pract}
 \end{equation}
 
-\vspace{10 pt}
-На основе данных таблицы 3 протокола измерений (см. Приложение 1) были получены следующие значения сдвига фаз:
 \begin{equation}
-    \begin{aligned}
-        \Psi&=15^\circ & \Delta\phi_{изм} &= 1.25\\
-        \Psi&=-15^\circ & \Delta\phi_{изм} &= 1.31\\
-        \vspace{5 pt}
-        \Psi&=30^\circ & \Delta\phi_{изм} &= -0.95\\
-        \Psi&=-30^\circ & \Delta\phi_{изм} &= -0.89\\
-    \end{aligned}
+    КБ_v = \frac{\pi\cdot \Delta z}{\Lambda}
+    \label{eq:kbv}
 \end{equation}
 
-Хорошо видно, что значение смещения очень точно совпадает с теоретической оценкой для $\Psi=15^\circ$ 
-и довольно сильно расходится при $\Psi=30^\circ$. Это может объясняться накопленной погрешностью измерительных
-приборов и увеличением влияния окружающих неучтеных препятствий с увеличением угла отклонения.
-\vspace{10 pt}
-\subsubsection{Коэффициент эллиптичности без учета различного затухания составляющих вектора}
+\begin{equation}
+    \Lambda = 2 (l_{2\min} - l_{1\min} ) 
+    \label{eq:Lambda}
+\end{equation}
 
 \begin{equation}
 \lambda = \frac{\Lambda}{\sqrt{1 +
             \left( \frac{\Lambda}{2a} \right)^2}}
 \end{equation}
 
-$$
-\left.
-\begin{aligned}
-    r_1 &= \sqrt{\frac{\alpha_{+45}}{\alpha_{-45}}}\\
-    B &= \sqrt{\frac{\alpha_n}{\alpha_\tau}}\\
-\end{aligned}
-\right\}
-\Longrightarrow
-\left|
-\begin{aligned}
-    r_1 &= \sqrt{\frac{46}{42}} = 1.0465\\
-    r_1B &= \sqrt{\frac{40}{32}}\cdot 1.0465 = 1.17\\
-\end{aligned}
-\right.
-$$
-
-\newpage
 \subsection{Таблицы результатов измерений и вычислений}
-Результаты исследования линейно поляризованной волны приведены в таблице
-\ref{tab:tab1}. Полученные характеристики эллиптически поляризованных
-волн сведены в эту же таблицу для компактности и удобства.
-Графы таблиц, дублирующие таблицы протокола измерений (см. Приложение 1),
-здесь приведены не будут.
+Экспериментальные характеристики электромагнитной волны в волноводе
+сведены в Таблицу~\ref{tab:tab1}. Теоретические величины 
+представлены в Таблице~\ref{tab:tab2}.\\
+
 \begin{centering}
 \begin{table}[h!]
 \newcolumntype{W}{D{.}{.}{2.3}}
 %\begin{adjustwidth}{-1.5cm}{}
 \vspace{10pt}
-\begin{tabular}{cccccccccccccc} \toprule %[-2.08em]
+\begin{tabular}{ccccccccccccc} \toprule %[-2.08em]
 \newcolumntype{W}{D{.}{.}{2.3}}
-freq  &  z1   &  z2   &  z1'  &  z2'  &  l1    &  l2    &  L     &  lambda   &  KBv        &  lKBv     &  alpha    &  Vgroup    &  Vphase    \\
+$f$, MHz  &  $z_1$   &  $z_2$   &  $z_1'$  &  $z_2'$  &  $l_1$    &  $l_2$    &  $L$     &  $\lambda$   &  $KB_v$     &  $\alpha$    &  $V_{gr}/c$    &  $V_{ph}/c$    \\
  \midrule
-3000  &  1.4  &  1.7  &  8.6  &  8.3  &  1.55  &  8.45  &  13.8  &  9.92  &  0.094  &  20.44  &  59.20  &  $2.17\cdot10^8$  &  $4.14\cdot10^8$  \\
-3200  &  0.5  &  2.3  &  6.6  &  8.4  &  1.4   &  7.5   &  12.2  &  9.27  &  0.609  &  4.293   &  12.44  &  $2.26\cdot10^8$  &  $3.97\cdot10^8$  \\
-3600  &  2.3  &  3.3  &  7.3  &  8.4  &  2.8   &  7.85  &  10.1  &  8.24  &  0.380  &  8.382  &  24.26  &  $2.45\cdot10^8$  &  $3.67\cdot10^8$  \\
-4000  &  1.5  &  1.6  &  5.8  &  5.9  &  1.55  &  5.85  &  8.6   &  7.36  &  0.042  &  27.40  &  79.34  &  $2.57\cdot10^8$  &  $3.50\cdot10^8$  \\
-4200  &  1.9  &  2.0  &  6.1  &  6.2  &  1.95  &  6.15  &  8.4   &  7.24  &  0.043  &  27.25  &  78.90  &  $2.58\cdot10^8$  &  $3.48\cdot10^8$  \\
+3000  &  1.4  &  1.7  &  8.6  &  8.3  &  1.55  &  8.45  &  13.8  &  9.92  &  20.4  &  59.20  &  0.72  &  1.38  \\
+3200  &  0.5  &  2.3  &  6.6  &  8.4  &  1.4   &  7.5   &  12.2  &  9.27  &  4.29  &  12.44  &  0.75  &  1.32  \\
+3600  &  2.3  &  3.3  &  7.3  &  8.4  &  2.8   &  7.85  &  10.1  &  8.24  &  8.38  &  24.26  &  0.81  &  1.22  \\
+4000  &  1.5  &  1.6  &  5.8  &  5.9  &  1.55  &  5.85  &  8.6   &  7.36  &  27.4  &  79.34  &  0.85  &  1.16  \\
+4200  &  1.9  &  2.0  &  6.1  &  6.2  &  1.95  &  6.15  &  8.4   &  7.24  &  27.2  &  78.90  &  0.86  &  1.16  \\
 \bottomrule
 \end{tabular}
 \vspace{5 pt}
-\caption{Исследование линейно и эллиптически поляризованных волн.} 
+\caption{Экспериментальные характеристики.} 
 %\end{adjustwidth}
 \label{tab:tab1}
 \end{table}
 \end{centering}
 
+\begin{centering}
+\begin{table}[h!]
+\newcolumntype{W}{D{.}{.}{2.3}}
+%\begin{adjustwidth}{-1.5cm}{}
+\vspace{10pt}
+\begin{tabular}{ccccccccccccc} \toprule %[-2.08em]
+\newcolumntype{W}{D{.}{.}{2.3}}
+$f$, MHz  &  $\lambda$  &  $\Lambda$  &  $V_{gr}/c$  &  $V_{ph}/c$  &  $\alpha$  &  $\alpha$, dB/m  \\
+ \midrule
+3000  &  0.1    &  0.138  &  0.71  &  1.39  &  0.0197  &  34.11  \\
+3200  &  0.093  &  0.124  &  0.75  &  1.32  &  0.0186  &  34.61  \\
+3600  &  0.083  &  0.102  &  0.81  &  1.23  &  0.0172  &  35.29  \\
+4000  &  0.075  &  0.087  &  0.85  &  1.17  &  0.0165  &  35.65  \\
+4200  &  0.071  &  0.082  &  0.86  &  1.15  &  0.0164  &  35.70  \\
+\bottomrule
+\end{tabular}
+\vspace{5 pt}
+\caption{Теоретические характеристики.} 
+%\end{adjustwidth}
+\label{tab:tab2}
+\end{table}
+\end{centering}
+
 \subsection{Графики и рисунки}
-Наиболее наглядным способом демонстрации и анализа поляризованных волн являются
-поляризационные диаграммы. На рисунках \ref{fig:plot1} и \ref{fig:plot2}
-представлены диаграммы для линейно и эллиптически поляризованных волн.
-Они хорошо согласуются с теоретическими формами кривых, что
-подтверждает корректность проведенных измерений и обработки их результатов.\\
+На основе данных таблиц~\ref{tab:tab1},~\ref{tab:tab2} были построены сравнительные характеристики
+теоретических и практических зависимостей фазовой и групповой скоростей (Рис.~\ref{fig:plot1}), а также коэффициента
+затухания электромагнитной волны (Рис.~\ref{fig:plot2}).
 
 \begin{figure}[hb!]
     \begin{center}
         \includegraphics[width=0.65\textwidth]{data1.pdf}
     \end{center}
-    \caption{Поляризационная диаграмма линейно поляризованной волны}
+    \caption{График зависимости фазовой и групповой скоростей от частоты.}
     \label{fig:plot1}
-\end{figure}
-
-\begin{figure}[hb!]
-    \begin{center}
-        \includegraphics[width=0.89\textwidth]{data3.pdf}
-    \end{center}
-    \caption{График зависимости эллиптичности от угла поворота поляризационной решетки}
-    \label{fig:plot3}
 \end{figure}
 
 \begin{figure}[h!]
     \begin{center}
         \includegraphics[width=0.7\textwidth]{data2-1.pdf}
-        \includegraphics[width=0.7\textwidth]{data2-2.pdf}
     \end{center}
-    \caption{Поляризационная диаграмма эллиптически поляризованной волны}
+    \caption{График зависимости коэффициента затухания ЭМВ от частоты.}
     \label{fig:plot2}
 \end{figure}
 \end{document}
