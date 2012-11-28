@@ -14,10 +14,10 @@ set style line 2 lt 1 lw 2 lc rgb "red"
 
 plot "./init_data"\
 				ind 0 u 1:14 w p pt 7 ps 1 lc rgb "blue" notitle,\
-			 "" ind 0 u 1:14:(r) title "V_gr exp" ls 1 s acs,\
+			 "" ind 0 u 1:14:(r) title "V_{gr} exp" ls 1 s acs,\
 			 "" ind 0 u 1:15  w p pt 7 ps 1 lc rgb "red" notitle,\
-			 "" ind 0 u 1:15:(r) title "V_ph exp" ls 2 s acs,\
+			 "" ind 0 u 1:15:(r) title "V_{ph} exp" ls 2 s acs,\
 			 ""	ind 1 u 1:4 w p pt 7 ps 1 lc rgb "blue" notitle,\
-			 "" ind 1 u 1:4:(r) title "V_gr theory" ls 1 s acs,\
+			 "" ind 1 u 1:4:(r) title "V_{gr} theory" ls 1 s acs,\
 			 "" ind 1 u 1:5  w p pt 7 ps 1 lc rgb "#006600" notitle,\
-			 "" ind 1 u 1:5:(r) title "V_ph theory" ls 2 s acs
+			 "" ind 1 u 1:5:(r) title "V_{ph} theory" ls 2 s acs
