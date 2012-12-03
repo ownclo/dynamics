@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.22)  2 DEC 2012 22:18
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.21)  3 DEC 2012 16:39
 entering extended mode
  %&-line parsing enabled.
 **lab6.tex
@@ -202,7 +202,7 @@ File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 \Gread@gobject=\count103
 ))
 \Gin@req@height=\dimen115
@@ -329,7 +329,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 (/usr/share/texmf-texlive/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2003/11/29 Fixes to fontencodings LGR, T3
 )
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+(/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count111
 \scratchdimen=\dimen148
@@ -361,56 +361,57 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1] [2 <./scheme.jpg>] [3]
 
-Package array Warning: Column W is already defined on input line 227.
+Package array Warning: Column W is already defined on input line 228.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--271
+Underfull \hbox (badness 10000) in paragraph at lines 267--272
 
  []
 
-<data1.pdf, id=37, 467.7475pt x 481.8pt>
-File: data1.pdf Graphic file (type pdf)
- <use data1.pdf>
-<data3.pdf, id=38, 689.57625pt x 485.815pt>
-File: data3.pdf Graphic file (type pdf)
- <use data3.pdf>
-<data2-1.pdf, id=39, 467.7475pt x 481.8pt>
-File: data2-1.pdf Graphic file (type pdf)
- <use data2-1.pdf>
-<data2-2.pdf, id=40, 467.7475pt x 481.8pt>
-File: data2-2.pdf Graphic file (type pdf)
- <use data2-2.pdf>
+<plot1.pdf, id=37, 794.97pt x 614.295pt>
+File: plot1.pdf Graphic file (type pdf)
+ <use plot1.pdf>
+<plot2.pdf, id=38, 794.97pt x 614.295pt>
+File: plot2.pdf Graphic file (type pdf)
+ <use plot2.pdf>
+<plot3.pdf, id=39, 794.97pt x 614.295pt>
+File: plot3.pdf Graphic file (type pdf)
+ <use plot3.pdf>
+<plot4.pdf, id=40, 794.97pt x 614.295pt>
+File: plot4.pdf Graphic file (type pdf)
+ <use plot4.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4] [5 <./data1.pdf> <./data3.pdf>] [6 <./data2-1.pdf> <./data2-2.pdf>]
-(./lab6.aux) ) 
+[4] [5 <./plot1.pdf, page is rotated 90 degrees>] [6 <./plot2.pdf, page is rota
+ted 90 degrees>] [7 <./plot3.pdf, page is rotated 90 degrees> <./plot4.pdf, pag
+e is rotated 90 degrees>] (./lab6.aux) ) 
 Here is how much of TeX's memory you used:
- 5220 strings out of 493848
- 63104 string characters out of 1152823
- 121644 words of memory out of 3000000
- 8188 multiletter control sequences out of 15000+50000
+ 5217 strings out of 493848
+ 63007 string characters out of 1152823
+ 121375 words of memory out of 3000000
+ 8185 multiletter control sequences out of 15000+50000
  21799 words of font info for 55 fonts, out of 3000000 for 9000
  875 hyphenation exceptions out of 8191
  34i,12n,32p,1046b,693s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texm
-f-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-bx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
-m0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfti1095.pfb>
-Output written on lab6.pdf (7 pages, 573227 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-su
+per/cm-super-t2a.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on lab6.pdf (8 pages, 580434 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
+ 128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
