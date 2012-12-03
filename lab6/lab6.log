@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.22)  4 DEC 2012 01:58
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.22)  4 DEC 2012 03:34
 entering extended mode
  %&-line parsing enabled.
 **lab6.tex
@@ -363,7 +363,25 @@ File: scheme.jpg Graphic file (type jpg)
  <use scheme.jpg> [1
 
  <./scheme.jpg>]
-Overfull \hbox (30.7366pt too wide) in paragraph at lines 129--166
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+
+Overfull \hbox (6.68144pt too wide) in paragraph at lines 141--142
+ \T2A/cmr/bx/n/10.95 3.2.Ёкспериментально вы-чис-лен-ные $\OT1/cmr/m/n/10.95 ^^
+C[](\OML/cmm/m/it/10.95 ^^R\OT1/cmr/m/n/10.95 )$\T2A/cmr/bx/n/10.95 .[] \T2A/cm
+r/m/n/10.95 Ќа ос-но-ве экс-пе-ри-мен-таль-
+ []
+
+
+Overfull \hbox (1.33508pt too wide) in paragraph at lines 162--164
+\T2A/cmr/m/n/10.95 пе-ри-мен-таль-но-го ис-сле-до-ва-ни€ со-став-л€-ю-щих па-ра
+л-лель-но по-л€-ри-зо-ван-ной вол-
+ []
+
+
+Overfull \hbox (30.7366pt too wide) in paragraph at lines 170--207
 [][]
  []
 
@@ -371,9 +389,7 @@ Overfull \hbox (30.7366pt too wide) in paragraph at lines 129--166
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--219
-
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <plot1.pdf, id=26, 794.97pt x 614.295pt>
 File: plot1.pdf Graphic file (type pdf)
@@ -390,37 +406,47 @@ File: plot4.pdf Graphic file (type pdf)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2] [3 <./plot1.pdf, page is rotated 90 degrees>] [4 <./plot2.pdf, page is rota
-ted 90 degrees> <./plot3.pdf, page is rotated 90 degrees>] [5 <./plot4.pdf, pag
-e is rotated 90 degrees>] (./lab6.aux (./title.aux)) ) 
+
+Overfull \hbox (4.82127pt too wide) in paragraph at lines 297--304
+[]\T2A/cmr/m/n/10.95 ѕроведено пол-ное ис-сле-до-ва-ние струк-ту-ры элек-тро-ма
+г-нит-но-го по-л€ над плос-
+ []
+
+[2]
+
+LaTeX Warning: Text page 3 contains only floats.
+
+[3] [4 <./plot1.pdf, page is rotated 90 degrees> <./plot2.pdf, page is rotated 
+90 degrees>] [5 <./plot3.pdf, page is rotated 90 degrees> <./plot4.pdf, page is
+ rotated 90 degrees>] (./lab6.aux (./title.aux)) ) 
 Here is how much of TeX's memory you used:
- 5240 strings out of 493848
- 63315 string characters out of 1152823
- 134976 words of memory out of 3000000
- 8198 multiletter control sequences out of 15000+50000
+ 5243 strings out of 493848
+ 63355 string characters out of 1152823
+ 139006 words of memory out of 3000000
+ 8201 multiletter control sequences out of 15000+50000
  23466 words of font info for 57 fonts, out of 3000000 for 9000
  875 hyphenation exceptions out of 8191
- 34i,13n,32p,1046b,693s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/e
-nc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
-/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc109
-5.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.
-pfb>
-Output written on lab6.pdf (6 pages, 615730 bytes).
+ 34i,13n,32p,641b,693s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/d
+vips/cm-super/cm-super-t2a.enc}</usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
+
+Output written on lab6.pdf (6 pages, 620817 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
