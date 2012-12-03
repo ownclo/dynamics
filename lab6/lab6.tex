@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,oneside, reqno]{amsproc}
+\documentclass[11pt,a4paper,oneside, titlepage,reqno]{amsproc}
 \usepackage{changepage}
 \usepackage{mathtext} % русские буквы в формулах
 \usepackage[T2A]{fontenc}
@@ -60,34 +60,7 @@
 
 \author{Соколовский Роман}
 \begin{document}
-
-\begin{titlepage}
-    \begin{center}
-        \textsc{\large Санкт-Петербургский Государственный Университет Аэрокосмического Приборостроения}\\[5cm]
-        \rule{\textwidth}{1pt}\\
-        \vspace{10pt}
-        { \huge \bfseries Исследование Структуры Электромагнитного Поля 
-        над Проводящей Плоской Поверхностью}\\[0.4cm]
-        \hrule
-        \vspace{0.4cm}
-        \textsc{ {\large Отчет по Лабораторной работе №6}}
-        
-        \vspace{2.5cm}
-        \begin{flushright}
-        \begin{minipage}{0.5\textwidth}
-            \begin{flushright} 
-                \textsc{\small Выполнил}:\\
-                \large
-                Студент факультета №\textbf{5}\\
-                Группы \textbf{5025} кафедры \textbf{52}\\[2pt]
-                \textsc{Соколовский} \textsc{Р}оман \textsc{А}лександрович
-            \end{flushright}
-        \end{minipage}
-        \end{flushright}
-        \vfill
-        {\large Санкт-Петербург\\2012}
-    \end{center}
-\end{titlepage}
+\include{./title}
 
 \section{Цель Работы}
 \begin{itemize}
@@ -125,7 +98,7 @@
 
 \begin{figure}[h!]
     \begin{center}
-        \includegraphics[width=\textwidth]{scheme.jpg}
+        \includegraphics[width=0.60\textwidth]{scheme.jpg}
     \end{center}
     \vspace{-20pt}
     \caption{Принципиальная схема лабораторной установки}
@@ -147,47 +120,93 @@
 волн сведены в эту же таблицу для компактности и удобства.
 Графы таблиц, дублирующие таблицы протокола измерений (см. Приложение 1),
 здесь приведены не будут.
+
+\begin{centering}
+\begin{table}[h!]
+\newcolumntype{W}{D{.}{.}{2.3}}
+\begin{adjustwidth}{-1cm}{}
+\vspace{10pt}
+\begin{tabular}{cccccccccc}
+\toprule %[-2.08em]
+\multicolumn{6}{c}{$|\overline{E}_{\Sigma_y}(z)|$} &
+\multicolumn{4}{c}{$|\overline{E}_{\Sigma_z}(z)|$} \\[5 pt]
+\multicolumn{2}{c}{$\theta = 0^\circ$} & 
+\multicolumn{2}{c}{$\theta = 30^\circ$} & 
+\multicolumn{2}{c}{$\theta = 60^\circ$} &
+\multicolumn{2}{c}{$\theta = 30^\circ$} & 
+\multicolumn{2}{c}{$\theta = 60^\circ$} \\
+$z$,~mm & $\sqrt{\frac{\alpha}{\alpha_{\max}}}$ & 
+$z$,~mm & $\sqrt{\frac{\alpha}{\alpha_{\max}}}$ & 
+$z$,~mm & $\sqrt{\frac{\alpha}{\alpha_{\max}}}$ & 
+$z$,~mm & $\sqrt{\frac{\alpha}{\alpha_{\max}}}$ & 
+$z$,~mm & $\sqrt{\frac{\alpha}{\alpha_{\max}}}$ \\
+ \midrule
+20  &  0.415228  &  28  &  0.803219  &  14  &  0.395285  & 19  &  0.723747  &  46  &  0.748331  \\
+22  &  0.473432  &  30  &  0.803219  &  16  &  0.395285  & 21  &  0.806718  &  48  &  0.83666   \\
+24  &  0.776819  &  32  &  0.879883  &  18  &  0.395285  & 23  &  0.908514  &  50  &  0.894427  \\
+26  &  0.946864  &  34  &  0.950382  &  20  &  0.467707  & 25  &  0.959497  &  52  &  0.959166  \\
+28  &  1         &  36  &  0.983739  &  22  &  0.572822  & 27  &  0.992032  &  54  &  0.989949  \\
+30  &  0.982607  &  38  &  1         &  24  &  0.684653  & 29  &  1         &  56  &  1         \\
+32  &  0.890563  &  40  &  0.915811  &  26  &  0.790569  & 31  &  0.959497  &  58  &  1         \\
+34  &  0.719195  &  42  &  0.861356  &  28  &  0.866025  & 33  &  0.899736  &  60  &  0.959166  \\
+36  &  0.508548  &  44  &  0.803219  &  30  &  0.935414  & 35  &  0.835711  &  62  &  0.938083  \\
+38  &  0.473432  &  -   &  -         &  32  &  0.976281  & 37  &  0.786796  &  64  &  0.883176  \\
+-   &  -         &  -   &  -         &  34  &  1         & 39  &  0.776643  &  66  &  0.812404  \\
+-   &  -         &  -   &  -         &  36  &  0.992157  & -   &  -         &  68  &  0.761577  \\
+-   &  -         &  -   &  -         &  38  &  0.935414  & -   &  -         &  70  &  0.678233  \\
+-   &  -         &  -   &  -         &  40  &  0.829156  & -   &  -         &  72  &  0.616441  \\
+-   &  -         &  -   &  -         &  42  &  0.684653  & -   &  -         &  74  &  0.565685  \\
+-   &  -         &  -   &  -         &  44  &  0.559017  & -   &  -         &  76  &  0.547723  \\
+-   &  -         &  -   &  -         &  46  &  0.450694  & -   &  -         &  78  &  0.547723  \\
+-   &  -         &  -   &  -         &  48  &  0.395285  & -   &  -         &  -   &  -         \\
+-   &  -         &  -   &  -         &  50  &  0.353553  & -   &  -         &  -   &  -         \\
+\bottomrule
+\end{tabular}
+\vspace{5 pt}
+\caption{Зависимости составляющих $|\overline{E}_{\Sigma_y}(z)|$ и $|\overline{E}_{\Sigma_z}(z)|$} 
+\end{adjustwidth}
+\label{tab:tab1}
+\end{table}
+\end{centering}
+
 \begin{centering}
 \begin{table}[h!]
 \newcolumntype{W}{D{.}{.}{2.3}}
 %\begin{adjustwidth}{-1.5cm}{}
 \vspace{10pt}
-\begin{tabular}{cccc} \toprule %[-2.08em]
-\newcolumntype{W}{D{.}{.}{2.3}}
-\multirow{2}*{$\theta^\circ$} & \multicolumn{1}{c}{\multirow{2}*{Линейная волна, $\alpha_n$}} & \multicolumn{2}{c}{Эллиптич. волна, $\alpha_n$} \\
-& & \multicolumn{1}{c}{$\Psi=30^\circ$} & \multicolumn{1}{c}{$\Psi=-30^\circ$}\\
- \midrule
-0 & 1 & 0.707107 & 0.803219\\
-15 & 0.960769 & 0.534522 & 0.803219\\
-30 & 0.862316 & 0.327327 & 0.915811\\
-45 & 0.679366 & 0.387298 & 0.983739\\
-60 & 0.566139 & 0.46291 & 1\\
-75 & 0.330113 & 0.547723 & 0.950382\\
-90 & 0 & 0.755929 & 0.842424\\
-105 & 0.310087 & 0.894427 & 0.851943\\
-120 & 0.599145 & 1 & 0.581988\\
-135 & 0.679366 & 0.956183 & 0.475191\\
-150 & 0.847319 & 0.861892 & 0.439941\\
-165 & 0.9337 & 0.717137 & 0.508001\\
-180 & 0.960769 & 0.676123 & 0.803219\\
-195 & 0.919866 & 0.507093 & 0.803219\\
-210 & 0.800641 & 0.316228 & 0.915811\\
-225 & 0.620174 & 0.400892 & 0.983739\\
-240 & 0.531085 & 0.478091 & 1\\
-255 & 0.299572 & 0.755929 & 0.950382\\
-270 & 0 & 0.755929 & 0.803219\\
-285 & 0.299572 & 0.861892 & 0.823055\\
-300 & 0.57735 & 0.92582 & 0.538816\\
-315 & 0.640513 & 0.910259 & 0.421212\\
-330 & 0.816497 & 0.828079 & 0.40161\\
-345 & 0.905822 & 0.676123 & 0.475191\\
-360 & 1 & 0.707107 & 0.803219\\
+\begin{tabular}{cccccccc}
+\toprule %[-2.08em]
+\multicolumn{4}{c}{$|\overline{E}_{\Sigma_y}(y)|$} &
+\multicolumn{4}{c}{$|\overline{E}_{\Sigma_z}(y)|$} \\[5 pt]
+\multicolumn{2}{c}{$\theta = 30^\circ$} & 
+\multicolumn{2}{c}{$\theta = 60^\circ$} &
+\multicolumn{2}{c}{$\theta = 30^\circ$} & 
+\multicolumn{2}{c}{$\theta = 60^\circ$} \\
+$z$,~mm & $\sqrt{\frac{\alpha}{\alpha_{\max}}}$ &
+$z$,~mm & $\sqrt{\frac{\alpha}{\alpha_{\max}}}$ &
+$z$,~mm & $\sqrt{\frac{\alpha}{\alpha_{\max}}}$ &
+$z$,~mm & $\sqrt{\frac{\alpha}{\alpha_{\max}}}$ \\
+\midrule
+14  &  0.62361   &  22  &  0.606977  &  34  &  0.680414  &  18  &  0.570088  \\
+16  &  0.62361   &  24  &  0.675381  &  36  &  0.732828  &  20  &  0.591608  \\
+18  &  0.65263   &  26  &  0.749269  &  38  &  0.816497  &  22  &  0.724569  \\
+20  &  0.827759  &  28  &  0.858395  &  40  &  0.892354  &  24  &  0.758288  \\
+22  &  0.922958  &  30  &  0.945905  &  42  &  0.952579  &  26  &  0.935414  \\
+24  &  0.981307  &  32  &  1         &  44  &  0.981307  &  28  &  1         \\
+26  &  1         &  34  &  0.955134  &  46  &  1         &  30  &  1         \\
+28  &  0.981307  &  36  &  0.783604  &  48  &  0.981307  &  32  &  0.894427  \\
+30  &  0.902671  &  38  &  0.648886  &  50  &  0.952579  &  34  &  0.758288  \\
+32  &  0.816497  &  40  &  0.606977  &  52  &  0.892354  &  36  &  0.632456  \\
+34  &  0.693888  &  -   &  -         &  54  &  0.805076  &  38  &  0.591608  \\
+36  &  0.638284  &  -   &  -         &  56  &  0.745356  &  -   &  -         \\
+38  &  0.62361   &  -   &  -         &  58  &  0.720083  &  -   &  -         \\
+-   &  -         &  -   &  -         &  60  &  0.680414  &  -   &  -         \\
 \bottomrule
 \end{tabular}
 \vspace{5 pt}
-\caption{Исследование линейно и эллиптически поляризованных волн.} 
+\caption{Зависимости составляющих $|\overline{E}_{\Sigma_y}(y)|$ и $|\overline{E}_{\Sigma_z}(y)|$} 
 %\end{adjustwidth}
-\label{tab:tab1}
+\label{tab:tab2}
 \end{table}
 \end{centering}
 
@@ -202,7 +221,8 @@
     \begin{center}
         \includegraphics[width=\textwidth]{plot1.pdf}
     \end{center}
-    \caption{Поляризационная диаграмма линейно поляризованной волны}
+    \vspace {-20 pt}
+    \caption{График зависимости составляющих $|\overline{E}_{\Sigma_y}(z)|$}
     \label{fig:plot1}
 \end{figure}
 
@@ -210,16 +230,25 @@
     \begin{center}
         \includegraphics[width=\textwidth]{plot2.pdf}
     \end{center}
-    \caption{График зависимости эллиптичности от угла поворота поляризационной решетки}
+    \caption{График зависимости составляющих $|\overline{E}_{\Sigma_z}(z)|$}
+    \label{fig:plot2}
+\end{figure}
+
+\begin{figure}[hb!]
+    \begin{center}
+        \includegraphics[width=\textwidth]{plot3.pdf}
+    \end{center}
+    \vspace {-20 pt}
+    \caption{График зависимости составляющих $|\overline{E}_{\Sigma_y}(y)|$}
     \label{fig:plot3}
 \end{figure}
 
 \begin{figure}[h!]
     \begin{center}
-        \includegraphics[width=\textwidth]{plot3.pdf}
         \includegraphics[width=\textwidth]{plot4.pdf}
     \end{center}
-    \caption{Поляризационная диаграмма эллиптически поляризованной волны}
-    \label{fig:plot2}
+    \vspace {-20 pt}
+    \caption{График зависимости составляющих $|\overline{E}_{\Sigma_z}(y)|$}
+    \label{fig:plot4}
 \end{figure}
 \end{document}
