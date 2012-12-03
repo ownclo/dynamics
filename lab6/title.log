@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.22)  4 DEC 2012 03:43
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.22)  4 DEC 2012 03:49
 entering extended mode
  %&-line parsing enabled.
 **title.tex
@@ -534,6 +534,8 @@ Missing character: There is no ‘ in font cmcsc10!
 Missing character: There is no Ñ in font cmcsc10!
 Missing character: There is no ‚ in font cmcsc10!
 Missing character: There is no Ð in font cmcsc10!
+Missing character: There is no ¿ in font cmcsc10!
+Missing character: There is no Ð in font cmcsc10!
 Missing character: There is no ¾ in font cmcsc10!
 Missing character: There is no Ð in font cmcsc10!
 Missing character: There is no » in font cmcsc10!
@@ -581,7 +583,7 @@ Overfull \hbox (8.72212pt too wide) in paragraph at lines 28--28
 
 ! Undefined control sequence.
 l.29 {\Large
-             \bfseries Ð˜Ð¡Ð¡Ð›Ð•Ð”ÐžÐ’ÐÐÐ˜Ð• ÐŸÐžÐ’Ð•Ð Ð¥ÐÐžÐ¡Ð¢Ð«Ð¥ Ð’Ð...
+             \bfseries Ð˜Ð¡Ð¡Ð›Ð•Ð”ÐžÐ’ÐÐÐ˜Ð• Ð¡Ð¢Ð Ð£ÐšÐ¢Ð£Ð Ð« Ð­Ð›Ð•ÐšÐ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -613,43 +615,71 @@ Missing character: There is no ˜ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no • in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no Ÿ in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ž in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ’ in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no • in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no   in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ¥ in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no  in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ž in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
 Missing character: There is no ¡ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no ¢ in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no   in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no £ in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no š in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no ¢ in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no £ in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no   in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no « in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ¥ in font cmbx10!
+Missing character: There is no ­ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ’ in font cmbx10!
+Missing character: There is no › in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no • in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no š in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no ¢ in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no   in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no ž in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no œ in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no  in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no “ in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no  in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no ˜ in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no ¢ in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no  in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no ž in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no “ in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no ž in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no Ÿ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no ž in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no › in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no  in font cmbx10!
+Missing character: There is no ¯ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no   in font cmbx10!
+Missing character: There is no  in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no  in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ¡ in font cmbx10!
+Missing character: There is no ” in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no Ÿ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
@@ -657,39 +687,19 @@ Missing character: There is no   in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no ž in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ¡ in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ¢ in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no   in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no  in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no  in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ¯ in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ® in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no © in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ˜ in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ¥ in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ¡ in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ¯ in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
 Missing character: There is no ’ in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ” in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no ž in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no › in font cmbx10!
+Missing character: There is no ” in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ¬ in font cmbx10!
+Missing character: There is no ¯ in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no © in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no • in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no ™ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no Ÿ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
@@ -701,53 +711,33 @@ Missing character: There is no ¡ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no š in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ˜ in font cmbx10!
+Missing character: There is no ž in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ¥ in font cmbx10!
+Missing character: There is no ™ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no — in font cmbx10!
+Missing character: There is no Ÿ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no  in font cmbx10!
+Missing character: There is no ž in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no œ in font cmbx10!
+Missing character: There is no ’ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no • in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ” in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no › in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ¯ in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ® in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no © in font cmbx10!
-Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ˜ in font cmbx10!
+Missing character: There is no   in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no ¥ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ¡ in font cmbx10!
+Missing character: There is no  in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no ˜ in font cmbx10!
+Missing character: There is no ž in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no ¡ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
 Missing character: There is no ¢ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no • in font cmbx10!
+Missing character: There is no ¬ in font cmbx10!
 Missing character: There is no Ð in font cmbx10!
-Missing character: There is no œ in font cmbx10!
-
-Overfull \hbox (3.19443pt too wide) in paragraph at lines 29--30
- \OT1/cmr/bx/n/10 , 
- []
-
-
-Overfull \hbox (3.19443pt too wide) in paragraph at lines 29--30
- \OT1/cmr/bx/n/10 . 
- []
-
+Missing character: There is no ® in font cmbx10!
 ! Undefined control sequence.
 l.37             \large
                        
@@ -982,5 +972,5 @@ Here is how much of TeX's memory you used:
  3392 multiletter control sequences out of 15000+50000
  4595 words of font info for 17 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 20i,3n,18p,127b,259s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 20i,3n,18p,133b,259s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
