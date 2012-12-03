@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.22)  4 DEC 2012 03:34
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.22)  4 DEC 2012 03:45
 entering extended mode
  %&-line parsing enabled.
 **lab6.tex
@@ -446,7 +446,7 @@ m-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb
 onts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
 
-Output written on lab6.pdf (6 pages, 620817 bytes).
+Output written on lab6.pdf (6 pages, 620839 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
