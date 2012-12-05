@@ -1,0 +1,400 @@
+
+
+*******************************************************************************
+Sun Sep 30 19:09:04 2012
+
+
+FIT:    data read from 'plot4.data' index 0 u 1:2
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.23786           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.773082
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -8.48434e-26
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.14667       
+b               = 1.5            
+c               = 0.536667       
+
+
+*******************************************************************************
+Sun Sep 30 19:09:23 2012
+
+
+FIT:    data read from 'plot4.data' index 0 u 1:2
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.23786           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.773082
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -8.48434e-26
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.14667       
+b               = 1.5            
+c               = 0.536667       
+
+
+*******************************************************************************
+Sun Sep 30 19:10:58 2012
+
+
+FIT:    data read from 'plot4.data' index 0 u 1:2
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.23786           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.773082
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -8.48434e-26
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.14667       
+b               = 1.5            
+c               = 0.536667       
+
+
+*******************************************************************************
+Sun Sep 30 19:12:27 2012
+
+
+FIT:    data read from 'plot4.data' index 0 u 1:2
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.23786           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.773082
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -8.48434e-26
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.14667       
+b               = 1.5            
+c               = 0.536667       
+
+
+*******************************************************************************
+Sun Sep 30 19:13:07 2012
+
+
+FIT:    data read from 'plot4.data' index 0 u 1:2
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.23786           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.773082
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -8.48434e-26
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.14667       
+b               = 1.5            
+c               = 0.536667       
+
+
+*******************************************************************************
+Sun Sep 30 19:14:22 2012
+
+
+FIT:    data read from 'plot4.data' index 0 u 1:2
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.23786           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.773082
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -8.48434e-26
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.14667       
+b               = 1.5            
+c               = 0.536667       
+
+
+*******************************************************************************
+Sun Sep 30 19:14:42 2012
+
+
+FIT:    data read from 'plot4.data' index 0 u 1:2
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.23786           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.773082
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -8.48434e-26
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.14667       
+b               = 1.5            
+c               = 0.536667       
+
+
+*******************************************************************************
+Sun Sep 30 19:16:57 2012
+
+
+FIT:    data read from 'plot4.data' index 0 u 1:2
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.23786           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.773082
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -8.48434e-26
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.14667       
+b               = 1.5            
+c               = 0.536667       
+
+
+*******************************************************************************
+Sun Sep 30 19:17:30 2012
+
+
+FIT:    data read from 'plot4.data' index 0 u 1:2
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.23786           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.773082
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2326e-32
+abs. change during last iteration : -8.48434e-26
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = -1.14667       
+b               = 1.5            
+c               = 0.536667       
+
+
+*******************************************************************************
+Sun Sep 30 19:17:50 2012
+
+
+FIT:    data read from 'plot4.data' index 1 u 1:2
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 229.3             delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 3.79317
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.77334e-32
+abs. change during last iteration : -1.60116e-21
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.151112       
+b               = -0.943336      
+c               = 1.79222        
