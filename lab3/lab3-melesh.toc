@@ -1,0 +1,5 @@
+\select@language {russian}
+\contentsline {section}{\tocsection {}{1}{\IeC {\CYRC }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyrsftsn } \IeC {\CYRR }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyrery }}}{2}
+\contentsline {section}{\tocsection {}{2}{\IeC {\CYRT }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyrery } \IeC {\cyrr }\IeC {\cyre }\IeC {\cyrz }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrv } \IeC {\cyri }\IeC {\cyrz }\IeC {\cyrm }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrishrt } \IeC {\cyri } \IeC {\cyrv }\IeC {\cyrery }\IeC {\cyrch }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrishrt }}}{3}
+\contentsline {section}{\tocsection {}{3}{\IeC {\CYRG }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrf }\IeC {\cyri }\IeC {\cyrk }\IeC {\cyri } \IeC {\cyri } \IeC {\cyrr }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyru }\IeC {\cyrn }\IeC {\cyrk }\IeC {\cyri }}}{4}
+\contentsline {section}{\tocsection {}{4}{\IeC {\CYRV }\IeC {\cyrery }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyrery }}}{7}
